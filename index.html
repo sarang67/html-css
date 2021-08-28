@@ -4,23 +4,13 @@
     <title>The basic Language of the web : HTML</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
-     <link href="./styles/styles.css" rel="stylesheet" />
 
-    <!-- <style>
-    h1 {
-      color: green;
-      text-align: center;
-    }
-
-    -->
-    </style>
+    <link href="./styles/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Comment -->
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
-
       <nav>
         <a href="/pages/blog.html">Blog</a>
         <a href="#">Challenges</a>
@@ -32,7 +22,6 @@
 
     <article>
       <header>
-        <!-- <h2 style="color:red">The Basic Language of the Web: HTML</h2> -->
         <h2>The Basic Language of the Web: HTML</h2>
         <img
           src="/assets/images/laura-jones.jpg"
@@ -41,7 +30,9 @@
           height="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
         <img
           src="assets/images/post-img.jpg"
           width="500"
@@ -108,7 +99,7 @@
 
     <aside>
       <h5>Related posts</h5>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="./assets/images/related-1.jpg"
@@ -117,7 +108,7 @@
             height="75"
           />
           <a href="#">How to Learn Web Development</a>
-          <p>By Mozilla Devlopment network</p>
+          <p class="related-author">By Mozilla Devlopment network</p>
         </li>
         <li>
           <img
@@ -127,7 +118,7 @@
             height="75"
           />
           <a href="#">The unknown poswer of css</a>
-          <p>By Mozilla Devlopment network</p>
+          <p class="related-author">By Mozilla Devlopment network</p>
         </li>
         <li>
           <img
@@ -137,13 +128,13 @@
             height="75"
           />
           <a href="#">why javascript is awsesome</a>
-          <p>By Mozilla Devlopment network</p>
+          <p class="related-author">By Mozilla Devlopment network</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine.</footer>
-
-    <button>Hello I am button &rarr;</button>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+    </footer>
   </body>
 </html>

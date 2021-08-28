@@ -1,17 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+  font-family: sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
 h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
-  font-family: sans-serif;
 }
 
 h2 {
   font-size: 40px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h3 {
   font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 20px;
+
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {
@@ -22,4 +48,50 @@ p {
 li {
   font-size: 20px;
   line-height: 1.5;
+}
+
+/* footer p {
+  font-size: 16px;
+  color: red;
+} */
+
+/* article header p {
+  color: green;
+} */
+
+#copyright {
+  font-size: 16px;
+}
+
+#author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
+
+#related-author {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* header {
+  background-color: red;
+} */
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  /* border: 5px solid #1098ad; */
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
 }

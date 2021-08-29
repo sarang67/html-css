@@ -95,3 +95,78 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+/* pseudo classes and misconception 
+
+   selector:pseudoclass{}
+*/
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* no, even, odd */
+/* li:nth-child(2) {
+  color: red;
+} */
+/* 
+article p:first-child {
+  color: red;
+}
+
+article p:last-child {
+  color: red;
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* Resolve conflicts 
+  **) !important
+  *) inline style
+  1) id
+  2) classes
+  3) element
+
+*/
+
+/* #copyright {
+  color: red;
+  font-size: 20px;
+}
+
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+} */

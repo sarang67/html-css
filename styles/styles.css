@@ -1,13 +1,23 @@
-h1,
-h2,
+* {
+  /* border-top: 5px solid red; */
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: red;
+}
+
+/* h1,
+h2,color
 h3,
 h4,
 h5,
 p,
 li {
-  font-family: sans-serif;
-  color: #444444;
-}
+  // font-family: sans-serif;
+} */
 
 h1,
 h2,
@@ -65,7 +75,6 @@ li {
 
 #author {
   font-size: 18px;
-  font-weight: bold;
 }
 
 /* ul {
@@ -170,3 +179,12 @@ a:active {
 footer p {
   color: green !important;
 } */
+
+/* nav a:link,
+nav strong {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
